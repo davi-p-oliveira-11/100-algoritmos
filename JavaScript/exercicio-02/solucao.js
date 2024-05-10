@@ -6,7 +6,7 @@ function dizerOla() {
   const nomePessoa = prompt("Qual é o seu nome ?");
 
   console.log(`Olá ${nomePessoa}, é um prazer te conhecer !`);
-  readline.question();
+  readline.question('Pressione Enter para sair');
 }
 
 dizerOla();
