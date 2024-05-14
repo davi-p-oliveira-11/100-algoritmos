@@ -6,7 +6,7 @@ def calcular_medidas():
     decimetros = metros * 10
     centimetros = metros * 100
     milimetros = metros * 1000
-    print(f'A distancia de {metros}m corresponde a: \n {kilometros}Km \n {hectometros}Hm \n {decametros}Dam \n {decimetros}dm \n {centimetros} \n {milimetros}mm')
+    print(f'A distancia de {metros}m corresponde a: \n {kilometros}Km \n {hectometros}Hm \n {decametros}Dam \n {decimetros}dm \n {centimetros}cm \n {milimetros}mm')
     print('Pressione Enter para sair')
 
 
