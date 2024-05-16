@@ -9,7 +9,6 @@ function tercaParte_dobro() {
    console.log(`O Dobro de ${numero} é ${dobro} e a terca parte de ${numero} é ${tercaParte}`);
    
    readline.question('Pressione Enter para sair ...');
-
 }
 
 tercaParte_dobro();
