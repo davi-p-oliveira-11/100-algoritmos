@@ -6,8 +6,7 @@ function tercaParte_dobro() {
    const dobro = numero * 2;
    const tercaParte = numero / 3;
    
-   console.log(`O Dobro de ${numero} é ${dobro}
-                a terca parte de ${numero} é ${tercaParte}`);
+   console.log(`O Dobro de ${numero} é ${dobro} e a terca parte de ${numero} é ${tercaParte}`);
    
    readline.question('Pressione Enter para sair ...');
 
