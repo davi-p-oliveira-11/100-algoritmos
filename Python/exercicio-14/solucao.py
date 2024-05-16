@@ -1,6 +1,6 @@
 def valor_aluguel():
-    distancia_viajada = int(input("How many kilometers were traveled with the rented car ? "))
-    dias_alugados = int(input("For how many days was the car rented ? "))
+    distancia_viajada = int(input("Quantos kilometros foram viajados com o carro ? "))
+    dias_alugados = int(input("Por quantos dias o carro foi alugado ? "))
 
     custo_por_dia = dias_alugados * 90
     custo_pela_distancia = distancia_viajada * 0.2
