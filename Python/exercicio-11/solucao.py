@@ -7,5 +7,6 @@ def calcular_area():
     valor_delta = (valor_b ** 2) - 4 * (valor_a * valor_c)
     print(f'O valor de delta é igual a {valor_delta}')
     input("Pressione Enter para sair ... ")
+    
 
 calcular_area()
