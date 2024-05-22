@@ -1,4 +1,4 @@
-def know_your_salary():
+def saiba_seu_salario():
     dias_trabalhados = int(input("Por quantos dias voce trabalhou no ultimo mes  ? "))
     dia_de_trabalho = 200
     salario = dias_trabalhados * dia_de_trabalho
@@ -8,4 +8,4 @@ def know_your_salary():
     print("Pressione Enter para Sair ... ")
 
 
-know_your_salary()
+saiba_seu_salario()
