@@ -1,10 +1,16 @@
 const readline = require('readline-sync');
 
-function olaMundo() {
-  const message = 'Olá Mundo';
+function main() {
 
-  console.log(message);
-  readline.question('Pressione Enter para sair ... ');
+  function olaMundo() {
+    const message = 'Olá Mundo';
+    console.log(message);
+  
+  }
+  
+  olaMundo();
 }
 
-olaMundo();
+main();
+readline.question('Pressione Enter para sair ... ');
+
