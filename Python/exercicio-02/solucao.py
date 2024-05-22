@@ -1,7 +1,9 @@
-def dizerOla():
-    nome = input('Qual o seu nome ?')
-    print(f'Olá {nome} seja bem vindo')
-    print('Pressione enter para sair ... ')
+def main():
+    def dizerOla():
+        nome = input('Qual o seu nome ?')
+        print(f'Olá {nome} seja bem vindo')
+        
+    dizerOla()
 
-
-dizerOla()
+main()
+print('Pressione enter para sair ... ')
