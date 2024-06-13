@@ -5,8 +5,8 @@ function main() {
 
   function calcularArea() {
 
-    const altura = parseFloat(input('Digite a altura da parede em metros: ' ));
-    const largura = parseFloat(input('Digite a largura da parede em metros: ' ));
+    const altura = parseFloat(prompt('Digite a altura da parede em metros: ' ));
+    const largura = parseFloat(prompt('Digite a largura da parede em metros: ' ));
 
     const area = largura * altura
     const tintaNecessaria =  area * 0.5
