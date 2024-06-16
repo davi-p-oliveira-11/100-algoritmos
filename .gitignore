@@ -6,5 +6,5 @@ dist
 lib
 bin
 
-# java classes
-*.class 
+# Ignorar arquivos .class
+*.class
