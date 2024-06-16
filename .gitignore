@@ -7,5 +7,4 @@ lib
 bin
 
 # java classes
-Exercicio01.class
-Exercicio02.class
+*.class 
