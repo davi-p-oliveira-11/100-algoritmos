@@ -2,5 +2,9 @@
 node_modules
 dist
 .vscode
+.vscode
 lib
 bin
+
+# java classes
+Exercicio01.class
