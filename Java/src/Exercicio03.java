@@ -30,7 +30,8 @@ public class Exercicio03 {
       String mesTrabalhado = scanner.next();
 
       System.out.println("O funcionario " + funcionario + " recebeu um salario de " + salario + " reais em " + mesTrabalhado);
-
+      scanner.close();
+      
     }
   
 }
