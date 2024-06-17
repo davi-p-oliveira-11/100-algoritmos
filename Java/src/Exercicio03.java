@@ -13,7 +13,9 @@ import java.util.Locale;
 public class Exercicio03 {
 
     public static void main(String[] args) {
+
         OlaFuncionario();
+
     }
 
     static void OlaFuncionario() {
@@ -31,7 +33,7 @@ public class Exercicio03 {
 
       System.out.println("O funcionario " + funcionario + " recebeu um salario de " + salario + " reais em " + mesTrabalhado);
       scanner.close();
-      
+
     }
   
 }

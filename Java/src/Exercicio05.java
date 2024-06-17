@@ -15,7 +15,9 @@ import java.util.Scanner;
 public class Exercicio05 {
 
     public static void main(String[] args) {
+
       CalcularMedia();
+
     }
 
     static void CalcularMedia() {
@@ -31,6 +33,7 @@ public class Exercicio05 {
       double media = (prova1 + prova2) / 2 ;
 
       System.out.println("A média entre " + prova1 + " e " + prova2 + " é: " + media);
+      scanner.close();
 
     }
   
