@@ -19,10 +19,10 @@ public class Exercicio18 {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("Em qual ano voce nasceu ? ");
+        System.out.print("Em qual ano voce nasceu ? ");
         int anoNascimento = scanner.nextInt();
 
-        System.out.println("Em que ano estamos ?");
+        System.out.print("Em que ano estamos ?");
         int anoAtual = scanner.nextInt();
 
         int idadeUsuario = anoAtual - anoNascimento;
