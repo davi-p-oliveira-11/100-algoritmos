@@ -10,21 +10,21 @@ import java.util.Scanner;
 public class Exercicio15 {
 
     public static void main(String[] args) {
-        CalcularSalario();
+        calcularSalario();
     }
 
-    static void CalcularSalario() {
+    static void calcularSalario() {
 
 
        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
        System.out.print("Quantos dias voce trabalhou no ultimos mês ?");
-       int DiasTrabalhados = scanner.nextInt();
+       int diasTrabalhados = scanner.nextInt();
 
-       int DiaDeTrabalho = 8 * 25;
-       int SalarioFuncionario = DiasTrabalhados * DiaDeTrabalho;
+       int diaDeTrabalho = 8 * 25;
+       int salarioFuncionario = diasTrabalhados * diaDeTrabalho;
 
-       System.out.println("O funcionário trabalhou " + DiasTrabalhados + " dias e receberá um salário de " + SalarioFuncionario + "reais.");
+       System.out.println("O funcionário trabalhou " + diasTrabalhados + " dias e receberá um salário de " + salarioFuncionario + "reais.");
        scanner.close();
     
     }
