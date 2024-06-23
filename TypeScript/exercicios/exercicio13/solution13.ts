@@ -6,9 +6,9 @@ seu novo salário, com 15% de aumento.
 */
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution13() {
+function solution13() : void {
    
-    function aumentoSalario() {
+    function aumentoSalario() : void {
        
       let valorSalario : number;
       let calcularAumento : number;

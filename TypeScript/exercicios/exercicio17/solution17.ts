@@ -6,9 +6,9 @@ o valor da multa, cobrando R$5 por cada Km acima da velocidade permitida.
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution17() {
+function solution17() : void {
 
-    function monitorarVelocidade() {
+    function monitorarVelocidade() : void {
 
       let velocidadeCarro : number;
       let velocidadeExcedente : number;

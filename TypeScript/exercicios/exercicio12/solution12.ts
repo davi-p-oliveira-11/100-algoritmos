@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution12() {
+function solution12() : void {
 
-    function calcularDesconto() {
+    function calcularDesconto() : void {
 
       let precoProduto : number;
       let desconto : number;

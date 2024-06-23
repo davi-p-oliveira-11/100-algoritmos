@@ -6,10 +6,10 @@ BISSEXTO.
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution21() {
+function solution21() : void {
 
   
-    function anoBissexto() {
+    function anoBissexto() : void {
 
       let ano : number;
 

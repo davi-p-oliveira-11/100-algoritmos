@@ -10,10 +10,10 @@ alistamento.
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution22() {
+function solution22() : void {
 
 
-    function podeOuNao() {
+    function podeOuNao() : void {
        
       let anoNascimento : number;
       let anoAtual : number;

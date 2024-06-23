@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution11() {
+function solution11() : void {
 
-   function calcularDelta() {
+   function calcularDelta() : void {
 
     let valorA : number;
     let valorB : number;

@@ -5,9 +5,9 @@
 */
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution15() {
+function solution15() : void {
 
-    function mostrarSalario() {
+    function mostrarSalario() : void {
 
       let diasTrabalhados : number;
       let diaDeTrabalho : number;

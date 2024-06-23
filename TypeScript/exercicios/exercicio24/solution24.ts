@@ -6,9 +6,9 @@
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution24() {
+function solution24() : void {
 
-   function calcularPassagem() {
+   function calcularPassagem() : void {
       let distanciaPercorrida : number;
       let precoPassagem1 : number;
       let precoPassagem2 : number;

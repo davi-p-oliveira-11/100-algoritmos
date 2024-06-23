@@ -7,9 +7,9 @@ quantos dias de vida um fumante perderá e exiba o total em dias.
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution16() {
+function solution16() : void {
 
-   function calcularDiasPerdidos() {
+   function calcularDiasPerdidos() : void {
 
       let cigarrosDia : number;
       let anosFumando : number;

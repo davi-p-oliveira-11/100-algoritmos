@@ -5,10 +5,10 @@
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution20() {
+function solution20() : void {
 
 
-    function parOuImpar() {
+    function parOuImpar() : void {
 
       let number : number;
 

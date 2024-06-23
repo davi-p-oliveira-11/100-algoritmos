@@ -7,9 +7,9 @@
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution14() {
+function solution14() : void {
   
-    function calcularAluguel() {
+    function calcularAluguel() : void {
 
       let kmPercorridos : number;
       let diasAlugado : number;

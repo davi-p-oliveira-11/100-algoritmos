@@ -6,10 +6,10 @@ não um bom aproveitamento (se ficou acima da média 7.0).
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution19() {
+function solution19() : void {
 
 
-    function avaliarNotas() {
+    function avaliarNotas() : void {
 
        let prova1 : number;
        let prova2 : number;

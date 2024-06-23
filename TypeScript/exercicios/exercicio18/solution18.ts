@@ -5,10 +5,10 @@
 
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution18() {
+function solution18() : void {
 
     
-   function avaliarIdade() {
+   function avaliarIdade() : void {
 
       let anoNascimento : number;
       let anoAtual : number;
