@@ -1,8 +1,8 @@
 import { pressEnterToExit } from "../../inputUtils";
 
-function exercicio01() {
+function exercicio01() : void {
 
-    function olaMundo() {
+    function olaMundo() : void {
 
         let message : string = "Olá Mundo !"
 
