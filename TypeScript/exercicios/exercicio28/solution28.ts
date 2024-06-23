@@ -33,7 +33,6 @@ function solution28() : void {
        }
 
 
-
     } 
 
     calcularTerreno();
