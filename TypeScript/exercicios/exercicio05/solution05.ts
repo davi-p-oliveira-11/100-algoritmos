@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution05() {
+function solution05() : void {
 
-    function calculate() {
+    function calculate() : void {
 
       let test1 : number;
       let test2 : number;

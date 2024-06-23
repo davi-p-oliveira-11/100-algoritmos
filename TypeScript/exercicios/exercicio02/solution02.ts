@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution02() {
+function solution02() : void {
 
-  function dizerOla() {
+  function dizerOla() : void {
 
     let personName : string; 
     

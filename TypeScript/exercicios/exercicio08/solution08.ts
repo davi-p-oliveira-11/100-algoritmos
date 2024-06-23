@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution08() {
+function solution08() : void {
 
-    function calculateMeasures() {
+    function calculateMeasures() : void {
 
       let metros : number;
 

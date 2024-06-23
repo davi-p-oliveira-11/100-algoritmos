@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution03() {
+function solution03() : void {
 
-    function helloEmployee() {
+    function helloEmployee() : void {
 
       let name : string;
       let salary : number;

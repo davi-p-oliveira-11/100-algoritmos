@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution04() {
+function solution04() : void {
 
-    function soma() {
+    function soma() : void {
 
       let num1 : number;
       let num2 : number;

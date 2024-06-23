@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution10() {
+function solution10() : void {
 
-    function calcularArea() {
+    function calcularArea() : void {
 
       let altura : number;
       let largura : number;

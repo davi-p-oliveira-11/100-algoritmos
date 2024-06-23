@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution06() {
+function solution06() : void {
 
-    function antecessorSucessor() {
+    function antecessorSucessor() : void {
 
       let number : number;
       let antecessor : number;

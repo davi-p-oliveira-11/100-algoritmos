@@ -1,8 +1,8 @@
 import { prompt, pressEnterToExit } from "../../inputUtils";
 
-function solution09() {
+function solution09() : void {
 
-    function converterMoeda() {
+    function converterMoeda() : void {
 
       let reaisDisponiveis : number;
       let valorDolar : number;
