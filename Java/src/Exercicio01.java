@@ -6,8 +6,26 @@ public class Exercicio01 {
 
     public static void main(String[] args) {
 
-        System.out.println("Olá mundo !");
+        Message message = new Message("Olá mundo !");
+        message.show();
 
     }
-  
+
 }
+
+    class Message {
+
+        private String content;
+        
+        public Message(String content) {
+            this.content = content;
+        }
+
+        public void show() {
+            System.out.print(content);
+        }
+    }
+
+
+  
+
